@@ -1,0 +1,40 @@
+.recorder-container {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #f0f0f0;
+}
+
+.recorder-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.recording-indicator {
+    display: flex;
+    align-items: center;
+}
+
+.ant-btn {
+    min-width: 120px;
+}
+
+.ant-btn-danger {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 77, 79, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 77, 79, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 77, 79, 0);
+    }
+} 
