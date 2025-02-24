@@ -1,0 +1,8 @@
+# Python dependencies for song identification
+numpy
+librosa
+pyacoustid
+chromaprint
+torchaudio
+torch
+transformers
